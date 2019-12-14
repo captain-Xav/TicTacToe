@@ -1,0 +1,46 @@
+#login {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#grid {
+  text-align: center;
+  display: flex;
+  width: 340px;
+  height: 340px;
+  margin: auto;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background: black;
+  border-radius: 4%;
+}
+
+.q {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: sp;
+  font-family: sans-serif;
+  font-size: 100px;
+  background: cornflowerblue;
+  border-radius: 4%;
+}
+
+.q.active:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+#message {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 100px;
+}

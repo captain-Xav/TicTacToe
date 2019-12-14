@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel='stylesheet' href='style.css' type='text/css' />
+    </head>
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div id="login" action>
+            <input id="username" type="text" placeholder="Username"/>
+            <button id="playButton">Play</button>
+        </div>
+        <div id="board">
+            <div id="grid">
+                <div id="q0" class="q"></div>
+                <div id="q1" class="q"></div>
+                <div id="q2" class="q"></div>
+                <div id="q3" class="q"></div>
+                <div id="q4" class="q"></div>
+                <div id="q5" class="q"></div>
+                <div id="q6" class="q"></div>
+                <div id="q7" class="q"></div>
+                <div id="q8" class="q"></div>
+            </div>
+            <div id="players">
+                <div id="playerInfo"></div>
+                <div id="opponentInfo"></div>
+            </div>
+            <div id="message"></div>
+        </div>
+    </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/game.js"></script>
